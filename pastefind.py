@@ -7,7 +7,7 @@ import urllib
 import re
 
 # User-defined variables
-time_between = 3       #Seconds between iterations (not including time used to fetch pages - setting below 5s may cause a pastebin IP block, too high may miss pastes)
+time_between = 7       #Seconds between iterations (not including time used to fetch pages - setting below 5s may cause a pastebin IP block, too high may miss pastes)
 error_on_cl_args = "Please provide a single regex search via the command line"   #Error to display if improper command line arguments are provided
 
 # Check for command line argument (a single regex)
